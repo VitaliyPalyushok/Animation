@@ -4,12 +4,10 @@
 	height: 200px;
 	background: green;
 	animation: back_cube 4s infinite;
+	margin-left: 40%;
+	margin-top: 10%;
 }
 
-/*.back_layer:hover
-{
-	animation: back_cube 4s infinite;
-}*/
 
 @keyframes back_cube
 {
@@ -35,10 +33,6 @@
 	 animation: front_cube 4s infinite;
 	}
 
-/*.front_layer:hover
-{
- animation: front_cube 4s infinite;
-}*/
 
 @keyframes front_cube
 {
@@ -63,10 +57,7 @@
 	animation: small_cube 3s infinite;
 }
 
-/*.the_smallest_cube:hover
-{
-	animation: small_cube 3s infinite;
-}*/
+
 
 @keyframes small_cube
 {
