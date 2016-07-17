@@ -1,0 +1,78 @@
+.back_layer
+{
+	width: 200px;
+	height: 200px;
+	background: green;
+	animation: back_cube 4s infinite;
+}
+
+/*.back_layer:hover
+{
+	animation: back_cube 4s infinite;
+}*/
+
+@keyframes back_cube
+{
+	from
+	 {
+	 	transform: rotate(0deg);
+	}
+	to
+	{
+		transform: rotate(360deg);
+	}
+	
+}
+
+.front_layer
+{
+	width: 150px;
+	height: 150px;
+	background: yellow;
+	margin-left: 12%;
+	display: inline-block;
+	margin-top: 25px;
+	 animation: front_cube 4s infinite;
+	}
+
+/*.front_layer:hover
+{
+ animation: front_cube 4s infinite;
+}*/
+
+@keyframes front_cube
+{
+	from
+	{
+		transform: rotate(0deg);
+	}
+	to 
+	{
+		transform: rotate(-720deg);
+	}
+}
+
+.the_smallest_cube
+{
+	width: 50px;
+	height: 50px;
+	background: red;
+	display: inline-block;
+	margin-left: 33%;
+	margin-top: 35%;
+	animation: small_cube 3s infinite;
+}
+
+/*.the_smallest_cube:hover
+{
+	animation: small_cube 3s infinite;
+}*/
+
+@keyframes small_cube
+{
+	0%{ transform: scale(1); }
+	25%{transform: scale(2);}
+	50%{transform: scale(1);}
+	75%{transform: scale(2);}
+	100%{transform: scale(1);}
+}
